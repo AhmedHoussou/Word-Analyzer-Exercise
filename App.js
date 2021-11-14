@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Text, View, Image,Button, TextInput, StyleSheet} from 'react-native';
+import {Text, View, Button, TextInput, StyleSheet} from 'react-native';
 
 export default class App extends Component{
   constructor(){
@@ -72,8 +72,5 @@ const Styles = StyleSheet.create({
     margin: 12,
     padding: 10,
   },
-  logo: {
-    width: 66,
-    height: 58,
-  },
+  
 });
